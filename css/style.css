@@ -29,9 +29,11 @@ body.static {
 .clearfix::after {
   clear: both; }
 
+/*style*/
 #start {
   position: relative;
   height: 700px;
+  /* background: url(../images/background1.jpg) center center; */
   overflow: hidden; }
 
 #start .start_inner {
@@ -39,7 +41,7 @@ body.static {
   left: 50%;
   z-index: 10000;
   margin-left: -470px;
-  width: 100%;
+  width: 940px;
   height: 100%; }
 
 #start .start_inner .top .logo {
@@ -282,7 +284,9 @@ body.static {
 
 #portfolio {
   padding: 90px 0 100px;
+  /* background: url(../images/background3.jpg) no-repeat center center; */
   overflow: hidden;
+  /* background-size: cover; */
   background-color: #671662; }
 
 #portfolio .portfolio_inner {
@@ -321,10 +325,12 @@ body.static {
   transform: translateY(0); }
 
 #portfolio .portfolio_inner .portfolio_list .photo {
+  /* 2020-04-28 */
   display: block;
   overflow: hidden; }
 
 #portfolio .portfolio_inner .portfolio_list li a .photo img {
+  /* 2020-04-28 */
   transition: transform 0.3s; }
 
 #portfolio .portfolio_inner .portfolio_list li a:hover .photo img {
@@ -340,6 +346,7 @@ body.static {
   font-weight: 700; }
 
 #portfolio .portfolio_inner .portfolio_list dl dt {
+  /* 2020-04-28 */
   display: block;
   margin: 0 auto;
   width: 80%;
@@ -626,6 +633,7 @@ input[type=text] {
 
 #contact .contact_inner .contact_form .input {
   width: calc(40% - 15px);
+  /* 2020-04-28 */
   float: left;
   margin-right: 15px; }
 
@@ -638,6 +646,7 @@ input[type=text] {
 
 #contact .contact_inner .contact_form .message {
   width: 60%;
+  /* 2020-04-28 */
   float: left;
   margin-bottom: 40px; }
 
@@ -735,6 +744,7 @@ input[type=submit] {
   line-height: 38px;
   font-size: 20px;
   background-color: #000;
+  color: #fff;
   border: 3px solid #fff;
   box-sizing: border-box;
   border-radius: 50px; }
@@ -756,7 +766,8 @@ input[type=submit] {
   font-size: 24px;
   color: #fff;
   background-color: rgba(103, 22, 98, 0.2);
-  border-radius: 50%; }
+  border-radius: 50%;
+  /* box-shadow: 0 0 2px rgba(0,0,0,0.5); */ }
 
 .item .controller {
   position: fixed;
@@ -812,7 +823,8 @@ input[type=submit] {
     display: none; }
 
   #start .tab {
-    display: block; }
+    display: block;
+    margin-right: 30px; }
 
   #start .tab.active {
     display: block;
@@ -829,7 +841,8 @@ input[type=submit] {
     margin: 0 auto; }
 
   #portfolio .portfolio_inner .portfolio_list .photo img {
-    width: 100%; }
+    width: 100%;
+    /* 2020-04-28 */ }
 
   #about .about_list li {
     margin-left: 5%;
@@ -916,7 +929,8 @@ input[type=submit] {
   #portfolio .portfolio_inner .portfolio_list li:nth-child(n+1) {
     margin: 0 auto;
     padding: 20px 0;
-    width: 100%; }
+    width: 100%;
+    /* 2020-04-28 */ }
 
   #about .about_list .desc dl dd {
     display: none; }
